@@ -1,0 +1,314 @@
+Unity Editor version:    2021.3.12f1 (8af3c3e441b1)
+Branch:                  2021.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jacobgarcia/snowboarder
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57936
+Successfully changed project path to: /Users/jacobgarcia/snowboarder
+/Users/jacobgarcia/snowboarder
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 114.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jacobgarcia/snowboarder/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) HD Graphics 630 (low power)
+Metal devices available: 2
+0: AMD Radeon Pro 560 (high power)
+1: Intel(R) HD Graphics 630 (low power)
+Using device AMD Radeon Pro 560 (high power)
+Initializing Metal device caps: AMD Radeon Pro 560
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.010615 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 113.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004003 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jacobgarcia/snowboarder/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jacobgarcia/snowboarder/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 108.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1527ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1246ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (600ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (201.5 KB). Loaded Objects now: 4523.
+Memory consumption went from 263.0 MB to 262.8 MB.
+Total: 6.412610 ms (FindLiveObjects: 0.751838 ms CreateObjectMapping: 0.756728 ms MarkObjects: 4.688025 ms  DeleteObjects: 0.214601 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 330250.138861 seconds.
+  path: Assets/Snow Boarder Sprite Assets
+  artifactKey: Guid(1b8f0623acf7a41658d34ff620a95ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow Boarder Sprite Assets using Guid(1b8f0623acf7a41658d34ff620a95ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167de49d800f7f839bdb0a30b3ef2ea4') in 0.008793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.897853 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(1b8f0623acf7a41658d34ff620a95ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(1b8f0623acf7a41658d34ff620a95ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eac855ff64b6356294dfa8d33874282') in 0.001545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.316376 seconds.
+  path: Assets/Sprites/7707c236a3bc3264abfb06c2de922162
+  artifactKey: Guid(b6ba89bc604d64d789ce382b525f765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/7707c236a3bc3264abfb06c2de922162 using Guid(b6ba89bc604d64d789ce382b525f765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db47675ecb748585d5d9878f07b872c') in 0.001540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055663 seconds.
+  path: Assets/Sprites/7707c236a3bc3264abfb06c2de922162/preview.png
+  artifactKey: Guid(17525a01694f8425a8764515758d17c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/7707c236a3bc3264abfb06c2de922162/preview.png using Guid(17525a01694f8425a8764515758d17c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d3fe5277afceac8714b5979990dd2e') in 0.956914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.679752 seconds.
+  path: Assets/Snow Boarder Sprite Assets
+  artifactKey: Guid(be2b0bbd47213415daf4a70e059a94ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow Boarder Sprite Assets using Guid(be2b0bbd47213415daf4a70e059a94ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f177583728f3f68b54243d89ca810552') in 0.006940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.978512 seconds.
+  path: Assets/Snow Boarder Sprite Assets/3f6465292c32d4244ba98e44631447d1
+  artifactKey: Guid(23200b93bfae449c59c77e2e21ba8d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow Boarder Sprite Assets/3f6465292c32d4244ba98e44631447d1 using Guid(23200b93bfae449c59c77e2e21ba8d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599d8877b82fdbbcf88cfd62cde2e57b') in 0.005700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109376 seconds.
+  path: Assets/Snow Boarder Sprite Assets/3f6465292c32d4244ba98e44631447d1/preview.png
+  artifactKey: Guid(68dfe624b4be84f05abc0ed5a8862405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow Boarder Sprite Assets/3f6465292c32d4244ba98e44631447d1/preview.png using Guid(68dfe624b4be84f05abc0ed5a8862405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238612277405247f79a168a4fdf4018b') in 0.027598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.158458 seconds.
+  path: Assets/Snow Boarder Sprite Assets/7feb9bd4424136d4984d3674e80de5a7/preview.png
+  artifactKey: Guid(64418bb35a11d495781ccb354994466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow Boarder Sprite Assets/7feb9bd4424136d4984d3674e80de5a7/preview.png using Guid(64418bb35a11d495781ccb354994466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b204d695d85ffbc537885b71978dd976') in 0.017911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.208316 seconds.
+  path: Assets/Snow Boarder Sprite Assets/7707c236a3bc3264abfb06c2de922162/preview.png
+  artifactKey: Guid(1afe2f2cf38a343949f790aeb9f3e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow Boarder Sprite Assets/7707c236a3bc3264abfb06c2de922162/preview.png using Guid(1afe2f2cf38a343949f790aeb9f3e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2213954b49ba489b00019490f79e985d') in 0.014174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.310216 seconds.
+  path: Assets/Snow Boarder Sprite Assets/782898472e8b7f04882fa078978a476e/preview.png
+  artifactKey: Guid(e408b4e9982914cbe9469c62e3783108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow Boarder Sprite Assets/782898472e8b7f04882fa078978a476e/preview.png using Guid(e408b4e9982914cbe9469c62e3783108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7747c51edc32f4dc4170bc70f0ff535') in 0.020100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.411653 seconds.
+  path: Assets/Snow Boarder Sprite Assets/bb091b0705e9d5b408cc32955ecd5b5f/preview.png
+  artifactKey: Guid(28612507df37749be90517167fb50ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow Boarder Sprite Assets/bb091b0705e9d5b408cc32955ecd5b5f/preview.png using Guid(28612507df37749be90517167fb50ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ae445c07cc91fecb073eaff2ce7c6b') in 0.027013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.171061 seconds.
+  path: Assets/Snow Boarder Sprite Assets/c1d46afcc2040e14b8fd44e1e3a288c3/preview.png
+  artifactKey: Guid(48b362e40558a4f498e4b7a93d10cb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow Boarder Sprite Assets/c1d46afcc2040e14b8fd44e1e3a288c3/preview.png using Guid(48b362e40558a4f498e4b7a93d10cb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c90fe49c4681e8403b2aa7a5d382251') in 0.024862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 276.520560 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shape Profiles/Sprite Shape Profile.asset
+  artifactKey: Guid(f24cddf7c09a6442abbce710a6fd7397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shape Profiles/Sprite Shape Profile.asset using Guid(f24cddf7c09a6442abbce710a6fd7397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a1655ea2fcd8c5a5cedaf78532eefc') in 0.942192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 603.845764 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(9b125e4f9a6fa49d39b3d103a94ecb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(9b125e4f9a6fa49d39b3d103a94ecb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13e290ab5266a7fb28a8cb4a84c03d5') in 0.001014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029922 seconds.
+  path: Assets/Sprites/blue-fill.png
+  artifactKey: Guid(229d9e8c2ef8d4027a73448ff1aa9fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/blue-fill.png using Guid(229d9e8c2ef8d4027a73448ff1aa9fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9b123a654e4d94d01268c142b4f9ed') in 0.030962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sprites/Snow-Tree-2.png
+  artifactKey: Guid(242e88d697b6a4159bd80337ddeb088e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snow-Tree-2.png using Guid(242e88d697b6a4159bd80337ddeb088e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7097e735edbf439e8895321c6e3f05') in 0.050095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprites/Sprite_Cloud_2.png
+  artifactKey: Guid(d00328de1f30e4a4e83a8ed49fcd89bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Cloud_2.png using Guid(d00328de1f30e4a4e83a8ed49fcd89bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227b188c6e139d56d1b712b4d6d3e37d') in 0.047502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Sprites/Boarder_Top.png
+  artifactKey: Guid(6af03a0c707cb46ad9949c97028159ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Boarder_Top.png using Guid(6af03a0c707cb46ad9949c97028159ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5b54000ac44e217b5e7e2bf340a77f') in 0.028069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Sprites/Snow-Tree-1.png
+  artifactKey: Guid(a5da53126d62e45b09b3012ec8dddb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snow-Tree-1.png using Guid(a5da53126d62e45b09b3012ec8dddb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00781eaa7f810556ae392e8cfb54ee7b') in 0.038328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sprites/Sprite_Cloud_6.png
+  artifactKey: Guid(c0f54134ac4dc40b4841712aad41c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Cloud_6.png using Guid(c0f54134ac4dc40b4841712aad41c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f40682e56390ec4bc8005ad03a58043') in 0.025371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Sprites/Sprite_Cloud_5.png
+  artifactKey: Guid(3d54b6c36e9ff423785712396d27d414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Cloud_5.png using Guid(3d54b6c36e9ff423785712396d27d414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42877d92493ee086d74690cf00c6f743') in 0.033182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/Snow-Rock-2.png
+  artifactKey: Guid(bdfb061ed981249b5a50b0bbf98865e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snow-Rock-2.png using Guid(bdfb061ed981249b5a50b0bbf98865e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eddbd6e98db95bf69426f0be54fffa') in 0.024502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/Snow-Rock.png
+  artifactKey: Guid(0b0a3fceb8c384eaeb13bacf84f69caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snow-Rock.png using Guid(0b0a3fceb8c384eaeb13bacf84f69caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f1fc805f7cf11a42cc242603631105') in 0.018776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/Snow-tile-low-res.png
+  artifactKey: Guid(88425f8f4aed6462d9a0d46fecfa69fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snow-tile-low-res.png using Guid(88425f8f4aed6462d9a0d46fecfa69fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af71440252ce5cb761503e57b49ebc75') in 0.051985 seconds 
