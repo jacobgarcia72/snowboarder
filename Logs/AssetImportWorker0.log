@@ -312,3 +312,27 @@ Received Import Request.
   path: Assets/Sprites/Snow-tile-low-res.png
   artifactKey: Guid(88425f8f4aed6462d9a0d46fecfa69fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/Snow-tile-low-res.png using Guid(88425f8f4aed6462d9a0d46fecfa69fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af71440252ce5cb761503e57b49ebc75') in 0.051985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 167.692625 seconds.
+  path: Assets/Sprites/Snow Profile.asset
+  artifactKey: Guid(8e3e3beff667b4c39a35549d4c3033ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snow Profile.asset using Guid(8e3e3beff667b4c39a35549d4c3033ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82383089565d8d5ab3eaed72ef3c7317') in 0.006805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.356735 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
+  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e0d64d8fff2998508adcc2a708433f') in 0.233763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png
+  artifactKey: Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png using Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cb747167b72efc6b91e7a4710c6690') in 0.022629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 462.401823 seconds.
+  path: Assets/Sprites/Snow Profile.asset
+  artifactKey: Guid(8e3e3beff667b4c39a35549d4c3033ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snow Profile.asset using Guid(8e3e3beff667b4c39a35549d4c3033ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520d06da606e2523112bcdbf8eeb6f1b') in 0.003866 seconds 

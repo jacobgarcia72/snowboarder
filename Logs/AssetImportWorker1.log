@@ -174,3 +174,9 @@ Received Import Request.
   path: Assets/Sprites/Boarder_Bottom.png
   artifactKey: Guid(398d7acb66baa48ea8138472e7ad0944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/Boarder_Bottom.png using Guid(398d7acb66baa48ea8138472e7ad0944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5b77d764bdd75aa4d00be26a67eebe') in 0.914230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 300.557065 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab
+  artifactKey: Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab using Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12157564e89fea7af01846686439abba') in 1.373950 seconds 
